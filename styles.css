@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(to top, #77B0AA, #135D66);
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: #77B0AA;
+    text-shadow: 0 0 15px darkblue;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #77B0AA;
+}
+
+.container {
+    justify-content: center;
+    margin: 80px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+}
+
+div {
+    font-size: 0;
+}
+
+.card {
+    width: 150px;
+    height: 250px;
+    border: solid 2px rgb(73, 73, 209);
+    background-image: url('./images/marianne-bos-WV6hCFDT9Rg-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.one {
+    background-image: url('./images/alex-shuper-IZgg5g_LsS4-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.two {
+    background-image: url('./images/nick-brunner-LXspKUjsgH0-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.three {
+    background-image: url('./images/jonathan-borba-ipmc5-Z-uwQ-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.four {
+    background-image: url('./images/christoph-nolte-t-FWwflH0uA-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.five {
+    background-image: url('./images/almaz-nourzhanov-u5kUeWINb_8-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.six {
+    background-image: url('./images/alex-shuper-Zs8VlSx03eY-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.seven {
+    background-image: url('./images/alex-shuper-U7MRVBu0raM-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.eight {
+    background-image: url('./images/alex-shuper-SNliMkZHVig-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.nine {
+    background-image: url('./images/alex-shuper-lD_VLICKaSg-unsplash.jpg');
+    background-size: 150px 250px;
+}
+
+.ten {
+    background-image: url('./images/alex-shuper-JU6iScBMU9k-unsplash.jpg');
+    background-size: 150px 250px;
+}
