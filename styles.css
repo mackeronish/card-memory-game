@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(to top, #77B0AA, #135D66);
     height: 100vh;
     text-align: center;
+    overflow: hidden;
 }
 
 h1 {
@@ -9,6 +10,21 @@ h1 {
     font-size: 60px;
     color: #77B0AA;
     text-shadow: 0 0 15px darkblue;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #77B0AA;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 100px;
+}
+
+button {
+    font-family: cursive;
+    font-size: 25px;
+    background-color: black;
+    color: goldenrod;
+    cursor: pointer;
 }
 
 h3 {

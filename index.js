@@ -12,20 +12,24 @@ var choice = [
     'ten',
 ];
 
-function checker(list) {
-    console.log(list);
-    if (list.length === 2) {
-        if (list[0] === list[1]) {
+function checker() {
+    if (decisions.length === 2) {
+        console.log(gert);
+        if (decisions[0] === decisions[1]) {
             decisions = [];
+            gert ++;
+            if (gert === 5) {
+                window.location.href = "./victory.html"
+            };
         }
         else {
-            alert('wrong. Try again!');
+            gert = 0;
             decisions = [];
             setTimeout(hideAllCards, 3000);
             //hideAllCards();
-        }
+        };
     }
-}
+};
 
 function hideAllCards() {
     for (let index = 0; index < images.length; index++) {
@@ -62,6 +66,7 @@ var myList = choice.slice(0, 5);
 myList.push(...myList);
 shuffle(myList);
 //var myCards = [];
+var gert = 0;
 
 for (let index = 0; index < images.length; index++) {
     //const card = {type: myList[index], num: images[index].innerHTML};
@@ -78,6 +83,6 @@ for (let i = 0; i < images.length; i++) {
         var num = this.innerHTML;
         this.classList.add(access(num));
         decisions.push(access(num));
-        checker(decisions);
+        checker(decisions, gert);
     })
 };
